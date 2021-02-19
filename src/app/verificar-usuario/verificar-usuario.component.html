@@ -1,0 +1,42 @@
+<app-navbar></app-navbar> 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificar datos</title>
+</head>
+
+<body>
+    <div class="container bg-light mt-5">
+        <div class="jumbotron p-3">
+          <div class="text-center">
+            <img src="../../../assets/img/perfil.png" width="50%" height="200px">
+          </div>
+          <hr>
+          <div class="mb-3">
+            <label for="formFile" class="form-label">Foto de perfil</label>
+            <input class="form-control" type="file" id="formFile">
+            <label for="Correo" class="form-label ">Correo</label>
+            <div class="input-group mb-3">
+              <input type="text" class="form-control" id aria-label="Text input with dropdown button">
+
+            </div>
+            <label for="pass" class="form-label">Contraseña</label>
+            <input type="password" class="form-control" id="pass">
+            <label for="passconf" class="form-label">Confirmar Contraseña</label>
+            <input type="password" class="form-control" id="passconf">
+            <label for="celular" class="form-label">Numero de celular</label>
+            <input type="text" class="form-control" id="celular">
+          </div>
+          <div class="text-center">
+            <button class="btn btn-block btn-outline-success">Verificar Datos</button>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
+
+<router-outlet></router-outlet>
